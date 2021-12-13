@@ -1,0 +1,156 @@
+.body1{
+    height: 100vh;
+    background: url('https://wallpaperaccess.com/full/1900901.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+}
+
+.main-body{
+    height: 100vh;
+    background:#292727;
+}
+
+h1,h2,h3{
+    color:white;
+}
+
+
+.sidemenu{
+    height: 100vh;
+    
+   
+}
+.menu-list{
+    padding-left: 0;
+}
+
+.menu-list li{
+    margin-bottom: 10px;
+}
+
+.recent-list,.show-project-list{    
+    width: 100%;
+    overflow-x: auto;
+}
+
+.message{  
+    display:none;
+}
+
+.access-show-div{
+    width: 50%;
+    background-color:#171717;
+}
+
+.error-show-div{
+    width: 60%;
+    background-color:#171717;
+}
+
+.access-show,.error_show{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.access-show-div{
+    display:none;
+}   
+
+.header nav,.sidemenu{
+    background:#171717;
+  }
+  .nav-button span{
+    color:red;
+  }
+table tr th{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 300;
+  /* padding: 10px  0 15px 15px; */
+      
+  line-height: 100%;
+  margin-bottom: 0;
+  border: none;
+  text-transform: uppercase;
+}
+
+.footer{
+    background: #1c1c1c;
+    width: 100vw;
+    }
+.user-login-form,.heading-login-div{
+    height: 100vh;
+}
+
+.main-body{
+    overflow: scroll;
+}
+
+
+
+@media screen and (min-width:873px){
+    .login-box{
+        margin-left: 50px;
+    }
+
+
+}
+
+@media screen and (max-width:1199px){
+    .sidemenu{
+      display:none;
+      position:absolute;
+      top:0;
+      left:0;
+      width: 200px; 
+    }
+  
+    .sidemenu-button{
+    display:block !important;
+  }
+  
+  .sidemenu-close-button{
+    display:block !important;
+  }
+  
+
+  .title-div{
+    display: none;
+}
+.sidemenu-title1{
+    display: block;
+}
+.sidemenu-title2{
+    display: none;
+}
+  
+  
+  
+  
+  }
+
+  @media screen and (min-width:1200px){
+    .sidemenu{
+      display:block;
+    }
+    .sidemenu-title1{
+        display: none;
+    }
+    .sidemenu-title2{
+        display: block;
+    }
+
+    .title-div{
+        display: block;
+    }
+  }
+  
+
+
+
+
+.forgotpassform{
+    display:none;
+}
